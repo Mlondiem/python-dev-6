@@ -11,5 +11,10 @@
 import os
 
 myname = "Mlondie"
+age = 32
+friends = ["Mlondie", "Mandla", "Sipho"]
+
 where = os.getcwd()
 print("Hello! My name is " + myname + '. We are in ' + where)
+
+myname.isupper()
